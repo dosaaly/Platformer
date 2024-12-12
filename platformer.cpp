@@ -31,8 +31,8 @@ void update_game() {
 
 void draw_game() {
     // TODO
-
     ClearBackground(BLACK);
+    DrawText("PLATFORMER", 200, 100, 90, RED);
     draw_level();
     draw_game_overlay();
 }
@@ -59,6 +59,7 @@ int main() {
     unload_sounds();
     unload_images();
     unload_fonts();
+
 
     CloseAudioDevice();
     CloseWindow();

@@ -1,7 +1,7 @@
 #ifndef GLOBALS_H
 #define GLOBALS_H
 
-#include "raylib.h"
+#include "../cmake-build-debug/vcpkg_installed/x64-windows/include/raylib.h"
 
 #include <string>
 #include <cstddef>

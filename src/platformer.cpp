@@ -1,4 +1,4 @@
-#include "raylib.h"
+#include "../cmake-build-debug/vcpkg_installed/x64-windows/include/raylib.h"
 
 #include "globals.h"
 #include "level.h"
